@@ -15,5 +15,23 @@ using namespace std;
 int main(){
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    int n;
+    cin>>n;
+    int req = n-10;
+    if(req == 10){
+        cout<<15<<endl;
+    }
+    else if(req == 1){
+        cout<<4<<endl;
+    }
+    else if(req < 10 && req >= 1){
+        cout<<4<<endl;
+    }
+    else if(req == 11){
+        cout<<4<<endl;
+    }
+    else{
+        cout<<0<<endl;
+    }
     return 0;
 }
