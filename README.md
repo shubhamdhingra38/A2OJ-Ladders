@@ -1,2 +1,2 @@
-# A2OJ-Ladders
-Problems solved by me in A2OJ Ladders
+# DSA
+Problems solved by me in Codeforces/Leetcode/Codechef
