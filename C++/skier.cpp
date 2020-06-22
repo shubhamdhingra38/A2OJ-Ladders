@@ -26,7 +26,7 @@ int main(){
         int time = 0;
         string s;
         cin>>s;
-        for(int i=0; i<s.size(); ++i){
+        for(int i=0; i<(int)s.size(); ++i){
             pii p0 = p1;
             if(s[i]=='N')
                 p0.first++;
